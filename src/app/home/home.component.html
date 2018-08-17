@@ -1,0 +1,17 @@
+<section class="section is-small">
+  <div class="container">
+    <div class="columns">
+      <div class="column" *ngFor="let user of users">
+        <div class="box">
+          <div class="content">
+            <p class="has-text-centered is-size-5">{{user.name}}</p>
+            <ul>
+              <li><strong>Role:</strong> {{user.role}}</li>
+              <li><strong>Pokemon:</strong> {{user.pokemon}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
